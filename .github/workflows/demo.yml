@@ -41,5 +41,6 @@ jobs:
         with:
           -name: upload Artifact file
       - name: list file
+        shell: bash
         run: ls
 
